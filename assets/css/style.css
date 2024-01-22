@@ -9,9 +9,15 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.levis:hover .front-card{
+
+.container-card .card:hover  .front-card{
   display: none;
 }
+
+.card .front-card:hover .back-card{
+  display: block;
+}
+
 .container-card .card{
   height: auto;
   width: 375px;
@@ -20,9 +26,19 @@
   
 }
 
-
-
 .container-card .card img{
   width: 100%;
   height: auto;
+}
+
+.img-card{
+  position: relative;
+}
+
+.sales{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: red;
+  color: white;
 }

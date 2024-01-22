@@ -9,7 +9,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.levis:hover .front-card{
+  display: none;
+}
 .container-card .card{
   height: auto;
   width: 375px;

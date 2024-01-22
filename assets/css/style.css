@@ -8,6 +8,10 @@ h2{
   font-size: 0.9rem;
 }
 
+.line-over{
+  text-decoration: line-through
+}
+
 .container-card{
   display: flex;
   flex-wrap: wrap;

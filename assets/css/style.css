@@ -17,6 +17,21 @@ h2{
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.back-card{
+  position: absolute;
+  
+  display: none;
+}
+
+.container-card:hover .front-card{
+  display: none;
+}
+
+.container-card:hover .back-card{
+  display: block;
+} 
+
 /* 
 .container-card .card:hover  .front-card{
   display: none;

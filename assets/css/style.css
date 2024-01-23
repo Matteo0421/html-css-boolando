@@ -24,9 +24,8 @@ h2{
   justify-content: center;
 }
 
+
 .back-card{
-  position: absolute;
-  
   display: none;
 }
 

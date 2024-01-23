@@ -12,6 +12,12 @@ h2{
   text-decoration: line-through
 }
 
+.container{
+  width: 98%;
+  max-width: 1380px;
+  margin: 40px auto;
+}
+
 .container-card{
   display: flex;
   flex-wrap: wrap;
@@ -24,11 +30,11 @@ h2{
   display: none;
 }
 
-.container-card:hover .front-card{
+.card:hover .front-card{
   display: none;
 }
 
-.container-card:hover .back-card{
+.card:hover .back-card{
   display: block;
 } 
 
